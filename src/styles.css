@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.react-syntax-highlighter-line-number {
+  padding-right: 10px;
+  color: #999;
+  font-size: 200px;
+  font-family: monospace;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.container {
+  display: flex;
+}
+
+.editor-container {
+  padding: 40px;
+  flex: 1;
+  width: 40%;
+}
+.current-info {
+  flex: 1;
+}
